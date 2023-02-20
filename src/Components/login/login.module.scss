@@ -1,0 +1,62 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  min-height: 100vh;
+}
+
+.loginMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad9d9;
+  border-radius: 7px;
+  box-shadow: 5px 5px 7px #7c7c7c;
+
+  min-width: 25rem;
+  max-width: 45rem;
+  width: 100%;
+
+  .pageTitle {
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    font-size: 3.6rem;
+    padding: 3rem;
+  }
+  .loginFormContainer {
+    text-align: center;
+    min-width: 65%;
+  }
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 5rem;
+
+  .emailInput,
+  .passwordInput {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .submitBtn {
+    padding: 1rem 0 1rem 0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.errorMsg {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  color: red;
+}
